@@ -1,0 +1,117 @@
+html {
+    display: block;
+}
+
+#notice {
+    color: green;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th{color: #333333;
+    padding-bottom: 5px;
+}
+
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a :-webkit-any-link {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h2 {
+    color:#333333;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#error_explanation {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+label {
+    cursor: default;
+}

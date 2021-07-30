@@ -1,0 +1,13 @@
+h1,strong,p {
+  color:#333333;
+}
+
+p{
+  margin:33px
+}
+
+a:-webkit-any-link {
+    color: #666666;
+    cursor: pointer;
+    text-decoration: underline;
+}
