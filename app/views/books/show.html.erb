@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
- <body>
-
- <p id="notice"> <%= flash[:notice] %> </p>
+<p id="notice"> <%= flash[:notice] %> </p>
 
 <p>
   <strong>Title:</strong>
@@ -15,7 +11,7 @@
 </p>
 
 <%= link_to "Edit", edit_book_path(@book) %>
-<a class="back" href="/books">Back</a>
+<%= link_to "Back", "/books" %>
 
   </body>
 </html>

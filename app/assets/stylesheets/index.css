@@ -1,7 +1,3 @@
-html {
-    display: block;
-}
-
 #notice {
     color: green;
 }
@@ -99,10 +95,6 @@ div.field, div.actions {
     margin-bottom: 10px;
 }
 
-div.field, div.actions {
-    margin-bottom: 10px;
-}
-
 form {
     display: block;
     margin-top: 0em;
@@ -110,8 +102,5 @@ form {
 
 label {
     margin-bottom: 10px;
-}
-
-label {
     cursor: default;
 }
